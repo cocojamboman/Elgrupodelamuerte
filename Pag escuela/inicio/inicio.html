@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog E.E.S.T. N°2</title>
+<link rel="stylesheet" href="snicio.css">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+
+
+</head>
+<body>
+<header class="header">
+        
+    <navbar class="nav_superior">
+            <!-- <label for="menu-lateral" class="icon-menu"> <img class="barra-lat" src="icons-menú.png" alt=""></label> -->
+
+<!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"><img class="barra-lat" src="icons-menú.png" alt=""></span>  
+    <ul>
+        <li><a href="../inicio/inicio.html">Inicio</a></li>
+        <li><a href="../previas/matprev.html">Materias Previas</a></li>
+        <li><a href="../especialidades/especial.html">Especialidades</a></li>
+        <li><a href="../Nosotros/sobreno.html">Sobre Nosotros</a></li>
+        <li><a href="../Contact/contacto.html">Contacto</a></li>
+    </ul>
+    </navbar>  
+
+    <!-- LOGO DE LA ESCUELA  -->
+    <div class="img-container">
+        <img class="img-centro" src="../inicio/img/esculea.png" alt="">
+    </div>
+
+</header>         
+<div class="container-menu">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="https://www.instagram.com/tecnica2berisso/">Instagram</a>
+        <a href="https://www.facebook.com/escuelatecnica2berisso/">Facebook</a>
+        <a href="https://sites.google.com/view/bibliotecadelaeestn2020">Biblioteca</a>
+        <a href="#">Sobre nosotros</a>
+    </div>
+</div>
+
+    <hr class="separador"></hr>
+    
+    <div class="pag-principal">
+        <!-- Contenido del contenedor de texto -->            
+    <div class="caja">    
+        <div class="titulo">
+            <h1 class="titulo2">NOTICIAS</h1> 
+        </div>
+        
+        <section class="padre">    
+
+            <img class="crono" src="../inicio/img/esculea.png" alt="">   
+
+            <div class="linea">
+                <h2>IMPORTANT EVENT LOREM</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto animi nisi illo eum delectus accusantium possimus pariatur soluta ipsam totam maxime cumque iure cupiditate fugiat ipsum fugit, et eius corporis!</p>
+            </div>
+    </div>   
+        </section>
+
+        <!-- PARTE DE LAS ESPECIALIDADES -->
+    <div class="caja" >    
+        <div class="spec-title">
+            <h1><a href="../especialidades/especial.html">ESPECIALIDADES</a></h1>
+        </div>
+
+        <div class="spec-parr">
+            <p>En nuestra institución educativa, brindamos un conjunto diverso de especialidades técnicas, diseñadas para proporcionar a nuestros estudiantes una formación integral y de alta calidad en distintas áreas del conocimiento y la práctica profesional.</p>
+        </div>
+    </div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../inicio/img/info.png" style="width:100%">
+    <div class="text">Informática</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../inicio/img/elctro.png" style="width:100%">
+        <div class="text">Electromecanica</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../inicio/img/ener-ron.png" style="width:100%">
+        <div class="text">Energia renovable</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+</div>
+<div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+    <footer class='content'>
+        <p>Escuela Técnica N°2 "Ing Emilio Rebuelto" &copy; 2024</p>
+    </footer>
+
+<script src="java/menulateral.js"></script>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+    
+</body> 
+
