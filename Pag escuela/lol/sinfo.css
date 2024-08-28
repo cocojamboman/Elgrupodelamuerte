@@ -5,6 +5,7 @@ body {
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            background-color: #1f2e5a;
         }
         .container {
             width: 80%;
@@ -13,10 +14,12 @@ body {
         }
         header {
             background: #35424a;
+            background: #086299;
             color: #ffffff;
             padding-top: 30px;
             min-height: 70px;
             border-bottom: #e8491d 3px solid;
+            border-bottom: #34bcd7 3px solid;
         }
         header a {
             color: #ffffff;
@@ -34,6 +37,7 @@ body {
         }
         h1, h2 {
             color: #35424a;
+            color: #196492;
         }
         p {
             line-height: 1.5;
