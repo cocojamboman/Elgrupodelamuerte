@@ -36,11 +36,11 @@ header li {
     padding: 0 20px 0 20px;
 }
 
-h1, h2 {
-    color: #35424a;
+h1 {
+    color: #ffffff;
 }
 
-p {
+p, h2 {
     line-height: 1.5;
     color: #333;
 }
