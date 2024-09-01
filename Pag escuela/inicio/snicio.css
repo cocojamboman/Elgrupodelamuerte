@@ -13,7 +13,7 @@ body{
     background-position: center;
     background-attachment: contain;     
     display: flex;
-    background-color:#1551b3;
+    background: #3a86ff;
     align-items: center;
     height:70px;
     margin: 0;
@@ -142,7 +142,7 @@ body{
     
     
     .separador{
-    background-color: #1551b3;
+    background-color: #3a86ff;
     border: none; /* Eliminar borde por defecto */
     height: 80px;  /* Altura de la línea */
     margin: 40px;
@@ -164,7 +164,7 @@ body{
     width: 700px;
     padding: 5px;
     color:  rgb(255, 255, 255);
-    background-color: #1551b3;
+    background: #3a86ff;
     }
     
     
@@ -176,7 +176,7 @@ body{
     
     .linea h2{
     text-align: center;       
-    background-color: #1551b3;
+    background: #3a86ff;
     color:white;
     padding: 10px;
     font-weight: 2;
@@ -231,7 +231,7 @@ body{
     .spec-title h1 {
         text-align: center;
         padding: 20px;
-        background-color: #1551b3;
+        background: #3a86ff;
         color: white;
         font-weight: 1;
     }
@@ -240,7 +240,7 @@ body{
         display: flex;
         justify-content: center;
         margin: 30px;
-        background-color: #1551b3;
+        background: #3a86ff;
         padding: 20px;
         border-radius: 5px;
     }
