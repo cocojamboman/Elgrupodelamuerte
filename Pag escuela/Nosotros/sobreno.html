@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1565e8; /* Fondo celeste medio apagado */
+            background-color: #1561db; /* Fondo celeste medio apagado */
             color: #333;
         }
 
@@ -24,7 +24,7 @@
         }
 
         h1 {
-            color: #0ea8df; /* Celeste más oscuro */
+            color: #0950ac; /* Celeste más oscuro */
             font-size: 2.8em;
             margin-bottom: 20px;
         }
@@ -35,13 +35,13 @@
             margin-bottom: 20px;
         }
 
-        .creators, .school-info, .specialties {
+        .creators, .school-info, .specialties, .location, .social-links {
             margin-top: 30px;
         }
 
-        .creators h2, .school-info h2, .specialties h3 {
+        .creators h2, .school-info h2, .specialties h3, .location h2, .social-links h2 {
             font-size: 2.2em;
-            color: #0ea8df; /* Celeste oscuro */
+            color: #0950ac; /* Celeste oscuro */
             margin-bottom: 15px;
         }
 
@@ -59,9 +59,25 @@
             border-radius: 8px;
         }
 
-        .specialties h3 {
-            font-size: 2em;
-            margin-bottom: 10px;
+        .location iframe {
+            width: 300px; /* Más pequeño y cuadrado */
+            height: 300px; /* Haciendo el mapa cuadrado */
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #00796b; /* Color del ícono o texto */
+        }
+
+        .social-links a img {
+            width: 40px;
+            height: 40px;
         }
 
         @media (max-width: 768px) {
@@ -74,12 +90,22 @@
                 font-size: 2.2em;
             }
 
-            .creators h2, .school-info h2, .specialties h3 {
+            .creators h2, .school-info h2, .specialties h3, .location h2, .social-links h2 {
                 font-size: 1.8em;
             }
 
             .creators li, .specialties li {
                 font-size: 1.1em;
+            }
+
+            .location iframe {
+                width: 250px;
+                height: 250px;
+            }
+
+            .social-links a img {
+                width: 30px;
+                height: 30px;
             }
         }
     </style>
@@ -114,7 +140,21 @@
                 <li>Energías Renovables</li>
             </ul>
         </div>
+
+        <div class="location">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1693559149985!6m8!1m7!1sCAoSLEFGMVFpcFB0Y3ZKRzFrUjZxUl9tdE02MEZja0lvZktTS1dGZzBoYktZcGt4!2m2!1d-34.8674923!2d-57.8809143!3f0!4f0!5f0.7820865974627469" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="social-links">
+            <h2>Enlaces a Redes Sociales</h2>
+            <a href="https://www.instagram.com/tecnica2berisso/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
     </div>
 
 </body>
 </html>
+
