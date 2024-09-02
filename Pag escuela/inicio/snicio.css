@@ -1,34 +1,26 @@
 body{
-    background-size:cover; /* Adjust the size of the background image to fit within the element */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0%;   
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el área completa */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-attachment: fixed; /* Fija la imagen de fondo */
-    background-position: center; /* Centra la imagen de fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;   
     }
     
     /* barra superior de la pagina */
-    .nav_superior{
-    background-position: center;
-    background-attachment: contain;     
-    display: flex;
-    background: #3a86ff;
-    align-items: center;
-    height:70px;
-    margin: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    }
+
     
-    /* IMAGEN SUPERIOR ESQUINA DERECHA DE USUARIO 
-    .img-user{
-    width: 30px;
-    height: 30px;
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
     }
-    */
+
+    header{ 
+      background: #3a86ff; /* Azul oscuro */
+      color: #ffffff;
+      padding-top: 30px;
+      padding-bottom: 26px;
+      min-height: 70px;
+      
+    }
     
     header a {
       color: #ffffff;
@@ -45,79 +37,27 @@ body{
       display: inline;
       padding: 0 20px 0 20px;
   }
+  
     
-    /* LISTA DE LA BARRA SUPERIOR  */
-    .element{
-    margin-left: 750px;
-    } 
-     
-    .enlace{
-    margin: 6px;
-    padding: 0;
-    } 
-    
-    .img-container {
-        text-align: center; /* Centro el contenido del div */
-    }
-    
-    .img-centro{   /* LOGO DE LA ESCUELA */
-        margin-top: 85px; /* Auto margen a la izquierda y derecha */
-        height: 265px;
-        width: 265px;
-    }
-    
-            /*Menù lateral*/
-    /* The side navigation menu */
-    .sidenav {
-        height: 100%; /* 100% Full-height */
-        width: 0; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        background-color: #3b3b3b; /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-      }
-      
-      /* The navigation menu links */
-      .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 20px;
-        color: #ffffff;
-        display: block;
-        transition: 0.3s;
-      }
-      
-      /* When you mouse over the navigation links, change their color */
-      .sidenav a:hover {
-        color: #646060;
-      }
-      
-      /* Position and style the close button (top right corner) */
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
-      
-      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-      #main {
-        transition: margin-left .5s;
-        padding: 20px;
-      }
-      
-      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-      @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-      }
-        /*Fin de Menù lateral*/
-    
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #branding {
+    float: left;
+  }
+
+  header #branding h1 {
+    margin: 0;
+  }
+
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+
     
     
     .barra-lat{
@@ -140,14 +80,6 @@ body{
     margin-right: 100px;
     }
     
-    
-    .separador{
-    background-color: #3a86ff;
-    border: none; /* Eliminar borde por defecto */
-    height: 80px;  /* Altura de la línea */
-    margin: 40px;
-    
-    }
     
     .titulo{
     display: flex;
@@ -213,15 +145,15 @@ body{
     
     /* PARTE DE LAS ESPECIALIDADES */
     
-    .caja{
-        background-color: #f0f0f0;
-        padding: 20px;
-      border: 1px solid #1c1c1c;
-      border-radius: 5px;
-        margin-top: 20px;
-      margin-bottom: 30px;
-    }
-    
+.caja{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    margin-top: 20px;
+  margin-bottom: 30px;
+}
+
     .spec-title {
         display: flex;
         justify-content:center;
@@ -234,6 +166,11 @@ body{
         background: #3a86ff;
         color: white;
         font-weight: 1;
+    }
+
+    .spec-title a{
+      color: white;
+      text-decoration: none;
     }
     
     .spec-parr {
@@ -347,8 +284,6 @@ body{
     }
 
     .footer {
-      width: 100%; /* Ancho del footer */
-      height: 100px; /* Alto del footer */
       background-color: #333; /* Color de fondo del footer */
       color: #fff; /* Color del texto del footer */
       display: flex;
