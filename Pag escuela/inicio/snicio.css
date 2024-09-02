@@ -283,12 +283,12 @@ body{
     text-align: center;
     }
 
-    .footer {
-      background-color: #333; /* Color de fondo del footer */
-      color: #fff; /* Color del texto del footer */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      bottom: 0;
-  }
+    
+      footer {
+        background: #3a86ff; /* Violeta */
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+  

@@ -61,7 +61,7 @@ header nav {
 .specialty {
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid #660099; /* Violeta */
+    border: 2px solid #1c1c1c; /* Violeta */
     border-radius: 10px;
     background: #e6e6fa; /* Lavanda */
 }
@@ -75,7 +75,7 @@ header nav {
 }
 
 footer {
-    background: #660099; /* Violeta */
+    background: #3a86ff; /* Violeta */
     color: #ffffff;
     text-align: center;
     padding: 10px 0;

@@ -1,85 +1,65 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #0f49d0; /* Fondo celeste medio apagado */
-    color: #333;
+    padding: 0; 
 }
 
 .container {
     width: 80%;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #ffffff; /* Blanco claro */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    text-align: center;
+    margin: auto;
+    overflow: hidden;
 }
 
-h1 {
-    color: #0776ca; /* Celeste más oscuro */
-    font-size: 2.8em;
-    margin-bottom: 20px;
+
+header{ 
+    background: #3a86ff; /* Azul oscuro */
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
 }
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+  
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+
 
 p {
-    line-height: 1.8;
     font-size: 1.1em;
     margin-bottom: 20px;
-}
-
-.creators, .school-info, .specialties, .location, .social-links {
-    margin-top: 30px;
-}
-
-.creators {
-    text-align: center;
-}
-
-.creators h2 {
-    font-size: 2.2em;
-    color: #0776ca; /* Celeste oscuro */
-    margin-bottom: 15px;
-}
-
-.creators ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.creators ul li {
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-.school-info h2, .specialties h2, .location h2, .social-links h2 {
-    font-size: 2.2em;
-    color: #0776ca; /* Celeste oscuro */
-    margin-bottom: 15px;
-}
-
-.specialties .specialty {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #e0f2f1; /* Fondo celeste suave */
-    border-radius: 8px;
-}
-
-.specialties .specialty h3 {
-    font-size: 1.8em;
-    color: #0776ca; /* Color del título de la especialidad */
-}
-
-.specialties .specialty h3 a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.specialties .specialty p {
-    font-size: 1.1em;
-    color: #555;
-    line-height: 1.6;
 }
 
 .location iframe {
