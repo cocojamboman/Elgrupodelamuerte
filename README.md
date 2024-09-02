@@ -1,10 +1,8 @@
-lol
+login register  LO TENEMOS  // CONECTARLO CON LA BS
 
-xd sexo lol
-lol
+BASE DE BASADOS
 
-25 
 
-i like titis with coco 
+BOTON QUE SALTE EL LOGIN REGISTER 
 
-son todos putos
+HAER LA OPCION DE SUBIR LOS ARCHIVOS / NOTICIAS Y BORRARLOS
