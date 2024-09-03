@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Noticia</title>
+    <link rel="stylesheet" href="publicar.css">
+</head>
+<body>
+    <!-- Botón para abrir la ventana emergente -->
+    <button id="openModalBtn">Publicar Noticia</button>
+
+    <!-- Ventana emergente -->
+    <div id="newsModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2>Ingresa tu Noticia</h2>
+            <textarea id="newsText" placeholder="Escribe lo que quieres publicar..."></textarea>
+            <button id="publishBtn">Publicar</button>
+        </div>
+    </div>
+
+    <script src="publicar.js"></script>
+</body>
+</html>
