@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;   
+    background-color: #f4f4f4;
     }
     
 /* Barra superior de la pagina */
@@ -87,53 +88,38 @@ header a {
     background: #3a86ff;
     }
     
-    
-    .padre{
+
+  .caja{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+    .caja section{
     display: flex;    
     align-items:flex-start;
     margin: 20px;
     }
-    
-    .linea h2{
-    text-align: center;       
-    background: #3a86ff;
-    color:white;
-    padding: 10px;
-    font-weight: 2;
+
+    .text1{
+      margin: 0 80px 20px 80px;
+
     }
-    
-    
-    .linea p{
-    background: white;
-    color: rgb(25, 25, 25);
-    padding: 20px;
-    margin: 10px;
-    height: 250px;
-    font-size:larger;
-    border-style: solid;
-    border-color: rgb(82, 82, 82);
-    text-align: center;
+
+    .text1 p{
+      text-align: center;
+      font-size: 25px;
     }
-    
-    .cuadrado{
-    color: black;
-    display: block;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+
+    .anuncio .imagen{
+      display: flex;
+      justify-content: center;
     }
-    
-    
-    
+
     /* PARTE DE LAS ESPECIALIDADES */
     
-.caja{
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-  margin-bottom: 30px;
-}
+
 
     .spec-title {
         display: flex;
