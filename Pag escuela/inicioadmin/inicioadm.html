@@ -18,7 +18,7 @@
 <header> 
     <div class="head">
         <div id="branding">
-            <h1>Escuela Técnica N°2</h1>
+            <h1>Escuela Técnica N°2  Modo Admin</h1>
         </div>
         <nav>    
             <ul>
@@ -32,14 +32,24 @@
         </nav>
     </div>
 </header>         
+<div class="boton">
+<button id="openModalBtn" class="bttn">Publicar Noticia</button>
+</div>
+<!-- Ventana emergente -->
+<div id="newsModal" class="modal">
+    <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <h2>Ingresa tu Noticia</h2>
+        <textarea id="newsText" placeholder="Escribe lo que quieres publicar..."></textarea>
+        <button id="publishBtn">Publicar</button>
+    </div>
+</div>
 
-    
 <div class="container">   
 
     <div class="caja">    
         <div class="titulo">
             <h1>NOTICIAS GENERICA</h1> 
-            <a href="publicar.html">Subir Publicacion</a>
         </div>
 
     
@@ -51,7 +61,7 @@
             </div>
             
             <div class="imagen">
-                <img src="/Pag escuela/inicio/img/gabe.jpg" alt="">
+                <img src="img/gabe.jpg" alt="">
             </div>
         </div>      
     </div>   
@@ -136,6 +146,7 @@ function showSlides(n) {
 }
 </script>
 
+<script src="publicar.js"></script>
     
 </body> 
 
