@@ -13,16 +13,14 @@ body {
             overflow: hidden;
         }
         header {
-            background: #2c4653;
+            background: #3a86ff;
             color: #ffffff;
             padding-top: 30px;
             min-height: 70px;
-            border-bottom: #547677 3px solid;
         }
         header a {
             color: #ffffff;
             text-decoration: none;
-            text-transform: uppercase;
             font-size: 16px;
         }
         header ul {
@@ -30,9 +28,21 @@ body {
             list-style: none;
         }
         header li {
+            float: left;
             display: inline;
             padding: 0 20px 0 20px;
         }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        
         h1, h2 {
             color: #a2b9c1;
         }
