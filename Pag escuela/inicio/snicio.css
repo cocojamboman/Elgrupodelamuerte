@@ -4,30 +4,30 @@ body{
     padding: 0;   
     }
     
-    /* barra superior de la pagina */
+/* Barra superior de la pagina */
 
     
-    .container {
-      width: 80%;
-      margin: auto;
-      overflow: hidden;
-    }
+.head {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
 
-    header{ 
-      background: #3a86ff; /* Azul oscuro */
-      color: #ffffff;
-      padding-top: 30px;
-      padding-bottom: 26px;
-      min-height: 70px;
-      
-    }
-    
-    header a {
-      color: #ffffff;
-      text-decoration: none;
-      font-size: 16px;
-  }
+header{ 
+  background: #3a86ff; /* Azul oscuro */
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  min-height: 70px;
   
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
   header ul {
       padding: 0;
       list-style: none;
@@ -58,43 +58,31 @@ body{
     margin-top: 10px;
   }
 
+/* Termina el Header */
     
-    
-    .barra-lat{
-    margin-top:5px;
-    margin-left: 20px;       
-    height: 45px;       
-    width: 45px;
-    cursor: pointer;
-    }
-    
+
+  .container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+  }
     
     .contenedor{
     margin-top: 10px;
     display: flex;
     }   
     
-    .pag-principal{       /* ALTERAR ESTOS PARAMETROS HACE QUE SE ROMPA TODO */
-    height: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    }
-    
-    
     .titulo{
     display: flex;
     justify-content: center;
     }
     
-    .titulo h1{
+    .titulo h1{ 
     text-align: center;
-    font-weight: 1;
-    }
-    
-    .titulo2{
+    font-weight: 1;  
     height: 55px;
     width: 700px;
-    padding: 5px;
+    padding:10px;
     color:  rgb(255, 255, 255);
     background: #3a86ff;
     }
@@ -135,12 +123,6 @@ body{
     padding: 10px;
     }
     
-    /* IMAGEN CENTRAL (3/6/24 BLOODBORNE) */
-    .crono{     
-    margin: 20px;    
-    width:50%;
-    height: 25%;
-    }
     
     
     /* PARTE DE LAS ESPECIALIDADES */
@@ -148,7 +130,6 @@ body{
 .caja{
     background-color: #f0f0f0;
     padding: 20px;
-    border: 1px solid #1c1c1c;
     border-radius: 5px;
     margin-top: 20px;
   margin-bottom: 30px;
