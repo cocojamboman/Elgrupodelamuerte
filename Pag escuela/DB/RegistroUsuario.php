@@ -11,12 +11,12 @@ $password = $_POST["password"];
 $passwordhash = password_hash($password, PASSWORD_BCRYPT);
 
 //consultamos si el correo ya existe
-$consultaid = "SELECT Correo FROM Usuario WHERE Correo = '$mail'";
+$consultaid = "SELECT Correo FROM usuario WHERE Correo = '$mail'";
 $consultaid = mysqli_query($conexion,$consultaid);
 $consultaid = mysqli_fetch_array($consultaid);
 
 if (!$consultaid) {
-    $sql = "INSERT INTO Usuario VALUES ( '$mail', '$username', '$usersurname', '$password', '$passwordhash')";
+    $sql = "INSERT INTO usuario VALUES ( '$mail', '$username', '$usersurname', '$password', '$passwordhash')";
 
     if (mysqli_query($conexion,$sql)) {
         echo "Tu cuenta a sido creada. Inicia sesion para continuar --> <a href='Pag escuela\Login - register\Login.html'> Iniciar Sesion </a>";
