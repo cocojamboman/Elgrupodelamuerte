@@ -5,8 +5,10 @@ $usuario = "root"; // usuario del servidor
 $contrasena = ""; // contraseña del servidor
 $BD = "blog_escuela"; // base de datos del servidor
 
+//Creando la conexion
 $conexion = mysqli_connect($servidor,$usuario,$contrasena,$BD);
 
+//Verificamos la conexion
 if($conexion){
     echo "Conexion Exitosa";
 }

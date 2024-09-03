@@ -119,19 +119,18 @@ h2{
             <h1>Registro</h1>
         <h3>A continuacion, coloque sus datos:</h3>
         </div>
-        <form action="/login" method="POST">
+        <form action="/Pag escuela/DB/RegistroUsuario.php" method="POST">
             <h3>Correo Electronico:</h3>
             <input type="text" name="mail" placeholder = "Correo Electronico"required>
             <h3>Nombre:</h3>
             <input type="text" name="username" placeholder="Nombre"required>
             <h3>Apellido:</h3>
-            <input type="text" name="username" placeholder="Apellido"required>
+            <input type="text" name="usersurname" placeholder="Apellido"required>
             <h3>Contraseña:</h3>
             <input type="password" name="password" placeholder="Contraseña" required>
-            <h3>Confirmar contraseña:</h3>
-            <input type="password" name="password" placeholder="Confirmar Contraseña" required>
-    
-            <button type="submit">Registrarse y continuar</button>
+
+            <input type="submit" name="enviar" class="button" value="Registrarse">
+            <!-- <button type="submit">Registrarse y continuar</button> -->
         </form>
     </div>
 
