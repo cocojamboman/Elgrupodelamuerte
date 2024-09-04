@@ -119,7 +119,7 @@ h2{
             <h1>Registro</h1>
         <h3>A continuacion, coloque sus datos:</h3>
         </div>
-        <form action="/Pag escuela/DB/RegistroUsuario.php" method="get">
+        <form action="Pag_escuela\DB\RegistroUsuario.php" method="post">
             <h3>Correo Electronico:</h3>
             <input type="text" name="mail" placeholder = "Correo Electronico"required>
             <h3>Nombre:</h3>
