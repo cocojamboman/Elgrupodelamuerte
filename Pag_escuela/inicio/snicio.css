@@ -3,13 +3,16 @@ body{
     margin: 0;
     padding: 0;   
     background-color: #f4f4f4;
+    background-image: url(img/fondo-school.jpeg);
+    background-attachment: fixed;
+    background-size: contain;
     }
     
 /* Barra superior de la pagina */
 
     
 .head {
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -110,11 +113,12 @@ header a {
     .text1 p{
       text-align: center;
       font-size: 25px;
+      width: 75%;
+      margin-left: 100px;
     }
 
     .anuncio .imagen{
-      display: flex;
-      justify-content: center;
+      margin: 0 200px 20px 200px; 
     }
 
     /* PARTE DE LAS ESPECIALIDADES */
