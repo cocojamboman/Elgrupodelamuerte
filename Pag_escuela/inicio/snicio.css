@@ -5,7 +5,7 @@ body{
     background-color: #f4f4f4;
     background-image: url(img/fondo-school.jpeg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size:cover;
     }
     
 /* Barra superior de la pagina */
