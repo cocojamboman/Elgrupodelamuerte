@@ -11,7 +11,7 @@ body{
 
     
 .head {
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -29,6 +29,7 @@ header a {
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
+  margin-left: 10px;
 }
 
   header ul {
