@@ -16,10 +16,10 @@ $consultaid = mysqli_query($conexion,$consultaid);
 $consultaid = mysqli_fetch_array($consultaid);
 
 if (!$consultaid) {
-    $sql = "INSERT INTO usuario VALUES ( '$mail', '$username', '$usersurname', '$password', '$passwordhash')";
+    $sql = "INSERT INTO usuario VALUES ( '$mail', '$username', '$usersurname', '$password','$passwordhash' )";
 
     if (mysqli_query($conexion,$sql)) {
-        echo "Tu cuenta a sido creada. Inicia sesion para continuar --> <a href='Pag escuela\Login - register\Login.html'> Iniciar Sesion </a>";
+        echo "Tu cuenta a sido creada.<br> Inicia sesion para continuar --> <a href='Pag_escuela\Login - register\Login.html'> Iniciar Sesion </a>";
     }
     else {
         echo "Error: " . $sql .  "<br>" . mysqli_error( $conexion );
@@ -30,7 +30,7 @@ else {
     echo "El Correo ya esta Registrado.";
     echo "<a href='Pag escuela\Login - register\registro.html'> Intenta de nuevo. </a>";
 }
-
+//'$passwordhash'
 
 mysqli_close($conexion);
 ?>;
