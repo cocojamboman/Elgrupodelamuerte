@@ -1,9 +1,0 @@
-a {
-    text-decoration: none;
-    outline: none;
-    color: #007bff; /* Cambia el color del enlace si lo deseas */
-}
-
-a:hover {
-    color: #0056b3; /* Color del enlace al pasar el mouse */
-}
